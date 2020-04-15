@@ -2,7 +2,7 @@
  
 <% if current_user.username == @post.user.username %>
  
-<button idName ="delete"> <%= link_to("Destroy", "/posts/#{@post.id}", method: :delete) %> </button>
+<button id ="delete"> <%= link_to("Destroy", "/posts/#{@post.id}", method: :delete) %> </button>
  
 
 <% end %> 

@@ -1,5 +1,7 @@
 {
   "name": "react_for_rails_developers",
+  
+  "proxy": "http://localhost:3001",
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.9.4",

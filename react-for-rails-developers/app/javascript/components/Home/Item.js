@@ -43,7 +43,7 @@ render() {
                        <button> <a href ={viewMore}> View More </a></button>
         </div> 
         if (username.username == user) {
-            console.log(item)
+        
             let editUrl = "/posts/" + item.id + "/edit"
             buttons  = 
             <div>
