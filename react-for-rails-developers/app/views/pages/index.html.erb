@@ -1,0 +1,10 @@
+<% if logged_in? %>
+    <h2> Hello, <%= current_user.username %>!</h2>
+    <%= javascript_pack_tag 'index', id: "testing", data: current_user.username, userid: current_user.id %> 
+
+    <button idName ="delete"> <%= link_to("Logout", "/users/#{current_user.id}", method: :delete) %> </button>
+<% else %> 
+    <h2> You are not logged in! </h2>
+<%end%>
+
+ 

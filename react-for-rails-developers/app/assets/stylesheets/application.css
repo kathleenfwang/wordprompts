@@ -1,0 +1,81 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ 
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+   
+ }
+h1{
+    text-align: center;
+}
+ .Nav {
+     
+    
+     border: 2px solid #eee;
+     width:200px;
+     margin:auto;
+ }
+ul {
+    list-style-type: none;
+}
+a {
+    color:black;
+    text-decoration: none;
+    transition: .5s;
+}
+a:hover {
+    font-weight: bold;
+    font-size: larger;
+}
+ .grid {
+
+     display:grid;
+     border: 3px solid #eee; 
+     padding:50px;
+      
+    grid-template-columns: 1fr 1fr 1fr;
+     text-align:center;
+ }
+ .gridItem {
+     margin:10px auto;
+     border: 2px solid #ddd;
+     border-radius:30px;
+     width:400px;
+     padding:50px;
+    
+ }
+ button {
+     border:none;
+     margin:5px;
+     border-radius:20px;
+     cursor: pointer;
+     transition-duration: 0.4s;
+ }
+ button:hover {
+     color:#333;
+ }
+ 
+
+  .edit {
+    color:white; 
+    padding:10px 20px;
+     background-color: lightskyblue;
+ }
+  #delete {
+    color:white; 
+    padding:10px 20px;
+     background-color:palevioletred;
+ }
