@@ -57,7 +57,7 @@ class EditPost extends Component {
                  onChange={this.handleContentChange}
                />
        
-               <p> <input type="submit" value="Submit Post" /> </p>
+               <p> <input className ="submit" type="submit" value="Submit Post" /> </p>
 
              </div>
             : "You must be the original author to edit/delete posts"}
