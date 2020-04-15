@@ -7,7 +7,7 @@
   "author": "kathleenfwang <kathleen.f.wang@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "cd react-for-rails-developers && yarn install && yarn build && cd ..",
+    "build": "cd react-for-rails-developers && yarn install",
     "deploy": "cp -a client/build/. public/",
     "postinstall": "yarn build && yarn deploy && echo 'Client built!'"
   },
