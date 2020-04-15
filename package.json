@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "cd react-for-rails-developers && yarn install",
-    "deploy": "cp -a client/build/. public/",
+    "deploy": "cp -a react-for-rails-developers/build/. public/",
     "postinstall": "yarn build && yarn deploy && echo 'Client built!'"
   },
   "engines": {
