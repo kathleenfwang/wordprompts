@@ -42,7 +42,7 @@ export default class Home extends Component {
       
             
         }
-        console.log(arr)
+        
         this.setState({
             words: arr,
             loaded:true
