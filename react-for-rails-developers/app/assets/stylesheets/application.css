@@ -16,7 +16,8 @@
  
  body {
      font-family: Arial, Helvetica, sans-serif;
-   
+     background-image: url("https://i.gyazo.com/6162b0ad74a9f5776831aa4801a934e3.png");
+     background-size: cover;
  }
 h1{
     text-align: center;
@@ -27,9 +28,19 @@ h1{
      border: 2px solid #eee;
      width:200px;
      margin:auto;
+     background-color: #eee;
  }
 ul {
     list-style-type: none;
+}
+input {
+    border:2px solid #ddd;
+    border-radius: 10px;
+    padding:20px;
+    margin:20px;
+}
+.submit {
+    background-color: aquamarine;
 }
 a {
     color:black;
@@ -52,6 +63,7 @@ a:hover {
  .gridItem {
      margin:10px auto;
      border: 2px solid #ddd;
+     background-color: #eee;
      border-radius:30px;
      width:300px;
      padding:50px;
