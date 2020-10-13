@@ -17,7 +17,7 @@ WordPrompts is a fully functional CRUD application that allows users a space to 
 
 ## Download locally: 
 - `git clone` this repository 
-- cd into `react-for-rails-developers` 
+- cd into `wordprompts/react-for-rails-developers` 
 - install dependences: 
   - `npm i`
   - `bundle` 
